@@ -1,0 +1,34 @@
+---
+语言：中文
+标签：
+-比较各个模型正确率
+使用的数据：
+-labeledTrainData.tsv
+-testData.tsv
+-unlabeledTrainData.tsv
+-glove.840B.300d.txt
+环境要求：
+-Python 3.7+
+-PyTorch
+-Transformers库
+训练建议
+-传统模型: 需要更多训练轮次（8-10轮）
+-部分模型在后期出现过拟合，需要监控验证集性能
+推荐使用：
+-distilbert_trainer：最佳平衡：高准确率、快速收敛
+-bert_native：高验证准确率，稳定性好
+-roberta_trainer：训练准确率最高
+---
+attention_lstm的训练集正确率为0.95，交叉验证集正确率为0.88
+bert_native的训练集正确率为0.96，交叉验证集正确率为0.91
+bert_scratch的准确率为0.9294
+bert_trainer的准确率为0.9152
+capsule_lstm的训练集正确率为0.92，交叉验证集正确率为0.88
+cnn的训练集正确率为0.87，交叉验证集正确率为0.69
+cnnlstm的训练集正确率为0.92，交叉验证集正确率为0.85
+distilbert_native的训练集正确率为0.97，交叉验证集正确率为0.91
+distilbert_trainer的训练集正确率为0.98，交叉验证集正确率为0.92
+gru的训练集正确率为0.53，交叉验证集正确率为0.56
+lstm的训练集正确率为0.54，交叉验证集正确率为0.51
+roberta_trainer的准确率为0.9482
+transformer的训练集正确率为0.7321，交叉验证集正确率为0.7496
