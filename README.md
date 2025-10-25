@@ -1,4 +1,3 @@
----
 # *imdb_sentiment_analysis_torch*
 
 ## *标签*
@@ -16,6 +15,7 @@
 - Transformers库
 
 ## *模型正确率*
+---
 | 模型       | 训练集准确率/准确率|交叉验证集准确率|
 | :--------:   | :-----:       | :----: |
 |attention_lstm|0.95|0.88|
@@ -39,4 +39,3 @@
 - distilbert_trainer：最佳平衡：高准确率、快速收敛
 - bert_native：高验证准确率，稳定性好
 - roberta_trainer：训练准确率最高
----
