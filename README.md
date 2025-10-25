@@ -36,6 +36,6 @@
 - 部分模型在后期出现过拟合，需要监控验证集性能
 ## *推荐使用*
 - distilbert_trainer：最佳平衡：高准确率、快速收敛
-- bert_native：高验证集准确率，稳定性好
-- roberta_trainer：训练集准确率最高
+- bert_native：高验证准确率，稳定性好
+- roberta_trainer：训练准确率最高
 ---
