@@ -32,6 +32,15 @@
 |roberta_trainer|0.9482|
 |transformer|0.7321|0.7496|
 
+---
+| peft demo  |  准确率 |
+| :--------:   | :-----:       |
+|promptEncode|0.6588|
+|prefixTuning|0.5310|
+|promptTuning|0.6474|
+|lora|0.9360|
+
+
 ## *训练建议*
 - 传统模型: 需要更多训练轮次（8-10轮）
 - 部分模型在后期出现过拟合，需要监控验证集性能
